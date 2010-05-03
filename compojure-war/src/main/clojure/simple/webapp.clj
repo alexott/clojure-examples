@@ -6,7 +6,7 @@
 
 ;; http://en.wikibooks.org/wiki/Compojure/Getting_Started
 
-(def r-prefix "/simple.webapp-0.1")
+(def r-prefix "/simple.webapp")
 
 (defroutes my-routes
   (GET (str r-prefix "/test/:id") [id & other-attrs]

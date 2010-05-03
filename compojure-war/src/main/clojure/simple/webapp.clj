@@ -6,11 +6,14 @@
 
 ;; http://en.wikibooks.org/wiki/Compojure/Getting_Started
 
+(def r-prefix "/simple.webapp-0.1")
+
 (defroutes my-routes
-  (GET (str "/test/:id") [id & updated-attrs]
-       (render (str "Called with param id='" id "'. other params=" updated-attrs)))
-  (GET "/*" []
-       (render "Without params"))
+  (GET (str r-prefix "/test/:id") [id & other-attrs]
+       (render (apply str "id=" id ", attrs=" other-attrs))
+    )
+  (GET (str r-prefix "/*") [& updated-attrs]
+       (render (apply str "params= " updated-attrs)))
   )
 
 (defservice my-routes)

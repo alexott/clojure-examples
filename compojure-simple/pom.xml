@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.alexott</groupId>
+    <artifactId>cpj-parent</artifactId>
+    <version>0.1.0</version>
+    <relativePath>cpj-parent/pom.xml</relativePath>
+  </parent>
+
+  <groupId>net.alexott</groupId>
+  <artifactId>cpj-simple</artifactId>
+  <packaging>pom</packaging>
+  <name>Simple Compojure Application</name>
+  <version>0.1.0</version>
+  <url>http://alexott.net/</url>
+
+  <scm>
+    <connection>scm:git:git://github.com/alexott/clojure-examples.git</connection>
+    <url>http://github.com/alexott/clojure-examples</url>
+  </scm>
+
+  <modules>
+    <module>cpj-parent</module>
+    <module>cpj-core</module>
+    <module>cpj-standalone</module>
+    <module>cpj-war</module>
+  </modules>
+
+</project>

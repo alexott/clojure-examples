@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.alexott</groupId>
+  <artifactId>cpj-parent</artifactId>
+  <version>0.1.0</version>
+  <packaging>pom</packaging>
+
+  <name>Simple Compojure Application (parent)</name>
+  <description>This is simple Compojure application with different packaging options</description>
+
+  <url>http://alexott.net/</url>
+  <scm>
+    <connection>scm:git:git://github.com/alexott/clojure-examples.git</connection>
+    <url>http://github.com/alexott/clojure-examples</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <name>Alex Ott</name>
+      <id>alexott</id>
+      <email>alexott@gmail.com</email>
+      <roles>
+        <role>Project Lead</role>
+      </roles>
+    </developer>
+  </developers>
+  
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>http://clojars.org/repo/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <properties>
+    <maven.compile.source>1.5</maven.compile.source>
+    <maven.compile.target>1.5</maven.compile.target>
+    <compiler.version>4.x</compiler.version>
+  </properties>
+
+</project>

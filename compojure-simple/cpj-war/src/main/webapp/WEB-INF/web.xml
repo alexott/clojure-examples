@@ -6,7 +6,7 @@
   <display-name>Simple Clojure WebApp</display-name>
   <servlet>
     <servlet-name>myservlet</servlet-name>
-    <servlet-class>simple.webapp</servlet-class>
+    <servlet-class>simple.war</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>myservlet</servlet-name>

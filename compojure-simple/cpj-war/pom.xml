@@ -24,7 +24,7 @@
     <dependency>
       <groupId>ring</groupId>
       <artifactId>ring-servlet</artifactId>
-      <version>0.2.0</version>
+      <version>0.2.1</version>
     </dependency>
   </dependencies>
 

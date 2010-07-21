@@ -1,0 +1,5 @@
+*~
+classes
+/hadoop1/lib/
+/hadoop1/*.jar
+/hadoop1/out/

@@ -1,6 +1,6 @@
-(defproject hadoop1 "1.0-SNAPSHOT"
+(defproject hadoop1 "0.1"
   :description "hadoop1"
-  :dependencies [[org.clojure/clojure "1.2.0-master-SNAPSHOT"]
-                 [org.clojure/clojure-contrib "1.2.0-SNAPSHOT"]
-                 [com.stuartsierra/clojure-hadoop "1.2.0-SNAPSHOT"]]
+  :dependencies [[org.clojure/clojure "1.2.0"]
+                 [org.clojure/clojure-contrib "1.2.0"]
+                 [com.stuartsierra/clojure-hadoop "1.2.0"]]
   )
